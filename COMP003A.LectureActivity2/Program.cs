@@ -41,7 +41,8 @@ namespace COMP003A.LectureActivity2
             Console.WriteLine("Comparisons");
             // greater/less than
 
-            // equal to/not equal to
+            Console.Write(first); Console.Write(" > "); Console.Write(second); Console.Write (" : ");
+            Console.WriteLine(first > second);
 
 
         }
