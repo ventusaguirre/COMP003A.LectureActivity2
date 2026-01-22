@@ -10,27 +10,33 @@ namespace COMP003A.LectureActivity2
 
             Console.Write("Enter the first number: ");
             string firstNumber = Console.ReadLine();
+            double first = double.Parse(firstNumber);
 
             Console.Write("Enter the second number: ");
-            string secondNumber = Console.ReadLine();
-
+            string secondNumber = Console.ReadLine(); 
+            double second = double.Parse(secondNumber);
             Console.WriteLine("");
+
 
             Console.WriteLine("Concatenation");
-            // sum 
-            Console.WriteLine("Sum: ");
-            // avg
-            Console.WriteLine("Average: ");
+            double sum = first + second;
+            Console.Write("Sum: " );
+            Console.WriteLine(sum);
+            double avg = (first + second) / 2;
+            Console.Write("Average: ");
+            Console.WriteLine(avg);
 
             Console.WriteLine("");
+
 
             Console.WriteLine("Interpolation");
-            //sum
-            Console.WriteLine("Sum: ");
-            //avg
-            Console.WriteLine("Average: ");
+            
+            Console.WriteLine($"Sum: ");
+            
+            Console.WriteLine($"Average: ");
 
             Console.WriteLine("");
+
 
             Console.WriteLine("Comparisons");
             // greater/less than
