@@ -14,8 +14,30 @@ namespace COMP003A.LectureActivity2
             Console.Write("Enter the second number: ");
             string secondNumber = Console.ReadLine();
 
+            Console.WriteLine("");
 
-            
+            Console.WriteLine("Concatenation");
+            // sum 
+            Console.WriteLine("Sum: ");
+            // avg
+            Console.WriteLine("Average: ");
+
+            Console.WriteLine("");
+
+            Console.WriteLine("Interpolation");
+            //sum
+            Console.WriteLine("Sum: ");
+            //avg
+            Console.WriteLine("Average: ");
+
+            Console.WriteLine("");
+
+            Console.WriteLine("Comparisons");
+            // greater/less than
+
+            // equal to/not equal to
+
+
         }
     }
 }
